@@ -4,27 +4,3 @@ Allow: /
 # XML Sitemap location
 Sitemap: https://hunty-zombie-script.com/sitemap.xml
 
-# Crawl delay (optional, helps prevent overwhelming small servers)
-Crawl-delay: 1
-
-# Specific directives for major search engines
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 1
-
-# Block common bot directories if they exist
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /logs/
-
-# Allow access to CSS and JS files for better SEO
-Allow: /assets/css/
-Allow: /assets/js/ 
